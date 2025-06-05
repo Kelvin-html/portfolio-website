@@ -1,0 +1,25 @@
+body{
+  font-family: 'roboto', sans-serif;
+  color: aliceblue;
+  height: max-content;
+  margin: 0;
+  padding-left: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url(../portfolio.thumbnails/istockphoto-693317332-612x612.jpg) ;
+
+}
+*{
+  outline: 0px solid red;} 
+  *, *::before, *::after{
+    box-sizing: border-box;}
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  a{color: inherit;
+  text-decoration: none;}
+  a:hover{
+    cursor: pointer;
+  }

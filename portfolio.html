@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelvin | Frontend Developer</title>
+  <link rel="stylesheet" href="css/divs.css">
+   <link rel="stylesheet" href="css/general.css">
+   <link rel="stylesheet" href="css/Imgs & Icons.css">
+   <link rel="stylesheet" href="css/md-q.css">
+   <link rel="stylesheet" href="css/Modal&DropdownMenu.css">
+  <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+  <link href="https://fonts.google.com/share?selection.family=Bebas+Neue|Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- HEADER -->
+  <div class="header"> 
+ <div class="logo">
+   Kelvin_Dev
+  </div>
+
+  
+  <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">
+    <button class="menu-b"><i class="fa-solid fa-bars icon-button"></i></button>
+  </div>
+  <nav>
+      <a href="#about"> <P> ABOUT</P> </a>
+      <a href="#projects"> <p> PROJECTS</p> </a>
+      <a href="#contact"> <P>CONTACT</P> </a>  
+  </nav>
+  </div>
+       <!--DROPDOWN MENU-->
+  <div class="dropdown-menu " id="dropdownMenu">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#" id="contactLink">Contact</a>
+</div>
+
+
+  <div class="hr"></div>
+  
+        <!--NAME TAG SECTION-->
+<div class="outer-div-1" id="name-tag">
+<div class="outer-div-NT">
+  <div class="NT-div-1">
+   _Hi, I am...
+  </div>
+  <div class="NT-div-2">Kelvin Akpaka</div>
+  <div class="NT-div-3"> > Front-End Web Developer .</div>
+  <div class="NT-div-4"> <p>  <span class="tag"> &lt;&gt;</span>I specialize in turning ideas into clean, responsive and user-friendly web interfaces.<span class="tag"> &lt;/&gt;</span></p></div>
+  </div>
+  
+ <!-- <div class="outer-div-myimg"> <img src="/portfolio.thumbnails/black-eye-cyber-circuit-future-technology-concept-background-vector.jpg" alt="">MY IMG</div>-->
+  </div>
+
+<div class="NT-div-5"> 
+  <button onclick="toggleModal()">__Lets talk</button>
+   <a href="/portfolio.thumbnails/cvholder.png" target="_blank"><button>__Download CV</button></a>
+</div>
+
+           <!--MODAL-->
+<div class="modal-Overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="close-btn" onclick="toggleModal()" id="close-modal" >X</button>
+    <h2>Contact Info</h2>
+
+  <div class="contact-item">
+    <img src="portfolio.thumbnails/whatsapp.png" alt="Whatsapp">
+    <a href="httpS://wa.me/2349017211194" target="_blank">Whatsapp</a>
+  </div>
+
+  <div class="contact-item">
+    <img src="portfolio.thumbnails/gmail.png" alt="Gmail">
+    <a href="mailto:akpakakelvin1@gmal.com">Mail</a>
+  </div>
+
+  <div class="contact-item">
+    <img src="portfolio.thumbnails/call.png" alt="call"> Phone: <br> +2349017211194
+  </div>
+
+  </div>
+</div>
+
+        <!-- TECH STACK SECTIOM-->
+  <div class="outer-div-2" id="tech-stack">
+    <div class="TS-div-1"> My Tech Stack</div>
+    <div class="TS-div-2">
+
+     <div class="icons"> <i class="fa-brands fa-html5"></i> <p> HTML</p>
+    </div>
+
+    <div class="icons"> <i class="fa-brands fa-css3-alt"></i> <p>CSS</p>
+    </div>
+
+   <div class="icons"><i class="fa-brands fa-js"></i> <p>JAVASCRIPT</p>
+  </div>
+
+  <div class="icons"> <img src="portfolio.thumbnails/tailwindcss-mark.d52e9897.svg" alt="tailwind-css logo" class="tailwind"> <p>TAILWIND</p></div>
+
+  <div class="icons"><i class="fa-brands fa-react"></i> <P>REACT</P>
+  </div>
+
+  <div class="icons"><i class="fa-brands fa-github"></i> <p>GITHUB</p></div>
+
+  <div class="icons"><i class="fa-brands fa-git-alt"></i> <P>GIT</P></div>
+
+</div>
+  </div>
+
+        <!--ABOUT SECTION-->
+<div class="outer-div-3" id="about">
+  <div class="about-div-1"> 
+    <div class="about-img"> <img src="portfolio.thumbnails/black-eye-cyber-circuit-future-technology-concept-background-vector.jpg" alt=""></div> 
+  </div>
+
+  <div class="about-div-2"> 
+    <p><span class="tag"> &lt;&gt; </span> Building the Web, One Pixel at a Time <span class="tag"> &lt;/&gt;</span></p>
+  </div>
+
+<div class="about-div-3">
+  What started as a casual     curiosity about how websites function quickly evolved into a full-on passion for web development. Driven to learn, I attended a bootcamp and learnt the essentials- HTML, CSS, Javascript, React, and Tailwind- along with a growing list of tools and frameworks.<br>
+  I blend creativity with technical expertise to build seamless web experiences that are both visually compelling and performance-driven. <br>
+  I am currently looking to grow in a collaborative environment where I can contribute to real world projects, and build softwares that solve problems.
+</div>
+
+<div class="about-div-4"> 
+  <p>1+ <br> Year <br> of Experience</p> <p>2+ <br> Projects <br>completed</p>
+</div>
+
+<div class="about-div-5"> 
+  <div> <a href="https://github.com/Kelvin-html" target="_blank"> <button>github<i class="fa-brands fa-github"></i> </div></button></a>
+</div>
+</div>
+
+        <!--PROJECT SECTION-->
+  <div class="outer-div-4" id="projects"> 
+<div class="projects-div-1">PROJECTS </div>
+
+<div class="projects-div-2">
+
+  <div><img class="projects-imgs" src="portfolio.thumbnails/black-eye-cyber-circuit-future-technology-concept-background-vector.jpg" alt=""> <p>PROJECT </p> </div>
+
+  <div><img src="portfolio.thumbnails/black-eye-cyber-circuit-future-technology-concept-background-vector.jpg" alt=""> <p>PROJECT 2</p> </div>
+
+  <div> <img src="portfolio.thumbnails/black-eye-cyber-circuit-future-technology-concept-background-vector.jpg" alt=""> <p>PROJECT 3</p> </div>
+</div>
+
+
+
+
+
+
+  </div>
+       <!--LETS WORK TOGETHER SECTION-->
+  <div class="outer-div-5" id="contact">
+
+    <div class="lwt-div-1">
+       LETS WORK TOGETHER 
+    </div>
+
+    <div
+    ><div class="hr-2"><hr></div>
+  </div>
+
+  <div class="lwt-div-2">
+
+<a href="portfolio.thumbnails/cvholder.png" target="_blank"> <div>
+  <img src="/portfolio.thumbnails/cvholder.png" alt=""> <p>Download CV </p> </div>
+ </a>
+
+<a href="mailto:akpakakelvin1@gmail.com">
+  <div> <img src="/portfolio.thumbnails/mailholdder.png" alt=""> <p>Akpakakelvin1@gmail.com </p></div>
+  </a>
+
+<a href="https://www.linkedin.com/in/kelvin-akpaka-a49968307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"> <div>
+  <img src="/portfolio.thumbnails/linkedinholder.png" alt=""> <p>LinkedIn </p></div>
+</a>
+
+</div>
+
+
+  <div class="lwt-div-3">  
+    <form id="contact-form"> <textarea placeholder="Enter your message" name="message" required>
+    </textarea>   <button type="submit">Send Message</button></form>
+  </div>
+
+
+  
+
+  
+  
+  
+  </div>
+  
+  
+</body>
+
+<script src="portfolio.js">
+ 
+</script>
+</html>

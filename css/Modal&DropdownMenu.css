@@ -1,0 +1,131 @@
+.modal-Overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: none;
+ 
+  z-index: 999;
+}
+
+.modal-Overlay.active{
+ display: flex;
+}
+
+
+
+  /*MODAL*/
+  .modal{
+background-color: rgb(35, 36, 38);
+padding: 24px;
+border-radius: 10px;
+width: 18.75rem;
+position: relative;
+height: max-content;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+
+.modal h2{
+margin-top: 0;
+margin-bottom: 1rem;
+font-size: 1.2rem;}
+
+.modal .close-btn{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;}
+
+  .contact-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1.5rem;}
+
+  .contact-item img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;}
+
+  .contact-item a{
+ color: rgb(232, 239, 241);
+text-decoration: underline;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.dropdown-menu {
+      display: none;
+      margin-top: 60px;
+      background-color: rgba(50, 50, 50, 0.8); 
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      right: 0.3rem;
+    }
+
+.dropdown-menu a {
+      display: block;
+      padding: 8px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #ddd;
+    }
+
+    
+
+      /* Keyframe animations */
+    @keyframes slideDown {
+      0% {
+        transform: translateY(-10%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10%);
+        opacity: 0;
+      }
+    }
+
+    .dropdown-menu.show {
+      display: block;
+      animation: slideDown 0.3s ease forwards;
+ 
+    }
+
+    .dropdown-menu.hide {
+      animation: slideUp 0.3s ease forwards;}
+
+      /* Animate to X */
+    .menu-icon.open div:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-icon.open div:nth-child(2) {
+      opacity: 0;
+    }
+
+    .menu-icon.open div:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);}

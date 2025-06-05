@@ -1,0 +1,83 @@
+
+.fa-css3-alt{
+  font-size: 100%;
+color: #2c7eb8;
+}
+
+.fa-html5{
+ font-size: 100%;
+  color: #E34F26;}
+
+.fa-js{font-size: 100%;
+   color: yellow;}
+
+.fa-react{
+    font-size:100%;
+  color: #61DAFB;}
+
+.fa-github{
+  color: white;
+  font-size: 100%;
+}
+
+.fa-bars{
+  color: aliceblue;
+  display: none;
+}
+
+.fa-git-alt{
+  font-size: 100%;
+  color: #E34F26;
+}
+
+.tailwind{
+  width: 50px;
+  height: 50px;
+}
+
+.icons{
+  font-size: 3rem;
+height:100%}
+
+.tag{
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;}
+
+    .logo{
+      font-family: 'roboto', sans-serif;
+  display: inline;
+  padding-left:10px;
+  padding-right: 10px;
+  font-size: large;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff
+    }
+
+    .menu-icon {
+  display: none;
+  font-size: 100%;
+  cursor: pointer;}
+
+  .icon-button {
+  font-size: 24px;
+  color: white;
+  transition: transform 1.5s ease;
+}
+
+
+
+
+  
+
+
+
+  
+    
+  
+

@@ -1,0 +1,381 @@
+  /*SMALLER SCREENS*/
+@media(max-width: 630px){
+  .outer-div-1{
+    margin-left:0;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-top: 70px;}
+
+  .outer-div-NT{
+    margin-top:40px ;
+    width: 100%;
+    gap: 2px;}
+
+  .NT-div-1{
+    height: 1rem;
+  display: flex;
+  justify-content: center;}
+
+  .NT-div-2{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;}
+
+  .NT-div-3{
+    display: flex;
+    justify-content: center;
+  align-items: center;}
+
+  .NT-div-4{
+    display: flex;
+    flex-direction: column;
+    flex: 1fr;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;}
+
+  .NT-div-5{height: 2rem; }
+
+  .NT-div-5 button{
+    height: 2rem;}
+
+
+  .outer-div-2{
+    border-radius: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 2rem;}
+
+  .TS-div-1{
+   font-size: 1.8rem;}
+
+  .TS-div-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left:65px;
+    padding-right: 65px;
+    gap: 4rem;}
+
+  .outer-div-3{
+    grid-template-rows: 0.7fr max-content max-content;}
+ 
+  .outer-div-4{
+    padding-left: 1rem;
+    padding-right: 1rem;}
+
+  .projects-div-1{
+   font-size: 1.8rem;}
+
+  .projects-div-2{
+     grid-template-columns: 1fr;
+     padding-left: 0;
+     padding-right: 0;
+     margin-top: 1rem;}
+
+  .outer-div-5{
+margin: 3rem 1rem;}
+
+.lwt-div-1{
+   font-size: 1.5rem;}
+
+.hr-2 hr{
+  width: 89%;}
+
+.lwt-div-2{
+  flex-direction: column;
+  justify-content:center ;
+  align-items:flex-start; 
+  padding: 0 20px;
+  gap:22px;}
+
+.lwt-div-2 div{
+  align-items: center;}
+
+.lwt-div-3{
+justify-content: start;
+align-items: flex-start;
+padding: 10px 22px;}
+
+.lwt-div-3 textarea{
+  width: 17rem}
+
+.lwt-div-3 button{
+  width:50% ;}
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+    height: 6rem;
+    border: #0ff;
+    border-style: dotted;
+    border-radius: 1rem;}
+ 
+  .icons p{
+    margin: 0;
+    font-size: 1rem;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;}
+
+   nav{
+    display: none;
+   }
+   .menu-icon{
+    display: block;}
+
+   .menu-b{
+    width: 100%;
+    height: 100%;
+    padding: 5px 1.2rem;
+    background-color:transparent;
+    border: none;}
+
+   .fa-bars{
+    color: white;
+    font-weight: 100;
+    font-size: 2rem; }
+}
+
+
+
+   
+
+/* BIGGER SCREENS*/
+@media (max-width:2600px) and (min-width:631px) {
+
+
+
+.header{
+  padding-left: 30px;
+  padding-right: 30px;}
+
+.outer-div-1{
+    margin-left: 0px;
+    padding-left: 70px;
+    padding-right: 30PX;}
+
+.outer-div-NT{
+  padding-left: 10px;
+  padding-right: 20px;
+  gap: 0;
+  grid-template-rows: 4rem 4rem 3rem 4rem;}
+
+.NT-div-1{
+  align-items: end;}
+
+.NT-div-2{
+  font-size: 2.6rem;
+  margin: 0;}
+
+.NT-div-4{
+  margin: 0;
+  height: 2rem;}
+  
+.NT-div-5{
+  height: max-content;}
+
+.NT-div-5 button{
+  height: 3.5rem;
+  font-size: 20px;}
+  
+.outer-div-2{
+  padding-left: 20px;
+padding-right:20px ;
+height: max-content;
+padding-bottom: 3rem;}
+
+.TS-div-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-auto-flow: row;
+    justify-items: center;
+    padding-left:40px;
+    padding-right: 40px;
+    gap: 4rem;}
+
+ .outer-div-3{
+    max-width: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem ;}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+    height: 6rem;
+    border: #0ff;
+    border-style: dotted;
+    border-radius: 1rem;}
+
+    .icons p{
+    margin: 0;
+    font-size: 1rem;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;
+  }
+
+  
+
+ 
+  .about-div-1{
+    height: 100%
+  }
+  .about-div-4 p{
+    padding: 0px 30px;
+  }
+
+  .about-div-5 button{
+     height: 3rem;}
+.lwt-div-1{ font-size: 2.2rem;}
+ 
+.lwt-div-2{
+  flex-direction: column;
+  justify-content:center ;
+  align-items:flex-start; 
+  padding: 0 50px;
+  gap:22px;
+}
+.lwt-div-3{
+  margin-top: 40px;
+  justify-content: start;
+align-items: flex-start;
+padding: 8px 39px;
+  
+}
+.lwt-div-3 textarea{
+  width: 30rem;
+  height: 100px
+}}
+
+
+
+
+
+
+
+
+/* FROM 362 DOWN*/
+@media (max-width: 390px) {
+  .header p{ 
+  font-family: 'roboto', sans-serif;
+  display: inline;
+font-size: 12px;}
+  
+  .NT-div-1{
+  display: flex;
+  justify-content: center;}
+
+  .NT-div-2{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;}
+
+  .NT-div-3{
+    display: flex;
+    justify-content: center;}
+
+  .NT-div-4{
+    padding-left: 5px;
+    padding-right: 5px;}
+
+  .NT-div-5 {
+    height: 2rem;
+  }
+  .NT-div-5 button{
+    height: 2rem;
+  }
+.menu-b{
+  margin-right: 1rem;}
+
+    .logo{
+      font-family: 'roboto', sans-serif;
+  display: inline;
+  padding-left:10px;
+  padding-right: 10px;
+  font-size: 16px;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff
+    }
+  
+  .TS-div-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left:40px;
+    padding-right: 40px;
+    gap: 1.5rem;
+  }
+.projects-div-2{
+  width: 100%;}
+.lwt-div-1{
+  font-size: 1.4rem;
+}
+.lwt-div-3 textarea{
+  width: 15rem
+}
+}
+
+/* BIG SCREENS MINUS IPADS */
+@media (min-width: 1000px) and (max-width: 2600px) {
+  
+ 
+  .NT-div-3{
+    font-size:1.6rem;}
+  .NT-div-4 p{
+    font-weight: 700;
+    font-size:1.6rem;
+  }
+
+  nav p{
+    font-weight: 700;
+  }
+
+  .lwt-div-2 {
+    padding: 0 15%;
+    gap: 2rem;
+     display: flex;
+     flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+  .outer-div-3{
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .TS-div-2 .icons{
+    width: 200px;
+  }
+  
+  .lwt-div-3{
+    padding: 0 12rem;
+    align-items: flex-start;
+  }
+  .lwt-div-3 textarea{
+  width: 36rem;
+  
+}
+
+.about-img{
+  width: 28rem;
+  height: 28rem;
+}
+}
